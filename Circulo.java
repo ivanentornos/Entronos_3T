@@ -27,6 +27,10 @@ public class Circulo extends Figura{
 				+ "De área " + calcularArea() + " y de perímetro " + calcularPerimetro() + "\n";
 	}
 
+	public void mensaje(){
+		Pantalla.escribirString("\nCírculo");
+	}
+
 	@Override
 	public double calcularArea() {
 		return Math.PI * Math.pow(radio, 2);

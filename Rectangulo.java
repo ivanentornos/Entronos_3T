@@ -37,6 +37,10 @@ public class Rectangulo extends Figura {
 				+ "De área " + calcularArea() + " y de perímetro " + calcularPerimetro() + "\n";
 	}
 
+	public void mensaje(){
+		Pantalla.escribirString("\nRectángulo");
+	}
+
 	@Override
 	public double calcularArea() {
 		// TODO Auto-generated method stub

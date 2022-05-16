@@ -37,6 +37,10 @@ public class Triangulo extends Figura {
 				+ "De área " + calcularArea() + " y de perímetro " + calcularPerimetro() + "\n";
 	}
 
+	public void mensaje(){
+		Pantalla.escribirString("\nTriángulo");
+	}
+
 	@Override
 	public double calcularArea() {
 		return (base * altura) / 2;
